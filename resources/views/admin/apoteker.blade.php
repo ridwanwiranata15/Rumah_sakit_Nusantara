@@ -44,8 +44,179 @@
                     </tbody>
                 </table>
             </div>
-            <div class="main-content-footer">
-                <p>Copyright &copy; 2024 - Nusantara Hospital</p>
-            </div>
         </div>
+@endsection
+@section('modal')
+<div class="modal-create">
+    <div class="modal-create-content doctor">
+        <div class="modal-create-content-header">
+            <h1></h1>
+            <span>X</span>
+        </div>
+        <div class="modal-create-content-body">
+            <form>
+               <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Nama wajib di isi</td>
+                </tr>
+                <tr>
+                    <td>Nomor telepon</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Spesialis wajib di isi</td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Jadwal praktek wajib di isi</td>
+                </tr>
+                <tr>
+                    <td>Nomor Str</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td>Tanggal bergabung</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Kontak darurat wajib di isi</td>
+                </tr>
+                <tr>
+                    <td>Shift</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Email wajib di isi</td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Password wajib di isi</td>
+                </tr>
+               </table>
+            </form>
+        </div>
+        <div class="modal-create-content-footer">
+            <button id="tambah">Tambah</button>
+            <button id="ubah">Ubah</button>
+        </div>
+    </div>
+</div>
+@endsection
+@section('modal')
+<div class="modal-create">
+    <div class="modal-create-content doctor">
+        <div class="modal-create-content-header">
+            <h1></h1>
+            <span>X</span>
+        </div>
+        <div class="modal-create-content-body">
+            <form>
+               <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Nama wajib di isi</td>
+                </tr>
+                <tr>
+                    <td>Lokasi</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Spesialis wajib di isi</td>
+                </tr>
+                <tr>
+                    <td>Jadwal</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Jadwal praktek wajib di isi</td>
+                </tr>
+                <tr>
+                    <td>Hari</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td>Kapasitas</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                    <td class="detail">detail</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td></td>
+                   <td class="alert-message">Kontak darurat wajib di isi</td>
+                </tr>
+               </table>
+            </form>
+        </div>
+        <div class="modal-create-content-footer">
+            <button id="tambah">Tambah</button>
+            <button id="ubah">Ubah</button>
+        </div>
+    </div>
+</div>
 @endsection
