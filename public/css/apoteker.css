@@ -1,0 +1,17 @@
+td button:nth-child(2){
+    background-color: rgb(255,0,0);
+    color: rgb(255,255, 255);
+}
+td button:nth-child(3){
+    background-color: rgb(0,0,255);
+    color: rgb(255,255,255);
+}
+.doctor{
+    width: 1370px;
+}
+.apoteker-padding{
+    padding-right: 150px;
+}
+td button:first-child{
+    background-color: rgb(255,255,0);
+}
