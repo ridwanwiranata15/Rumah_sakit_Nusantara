@@ -2,6 +2,10 @@
     font-family: 'poppins';
     src: url('../css/Poppins/Poppins-Regular.ttf');
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 button{
     border: none;
     padding: 10px;

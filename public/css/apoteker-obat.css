@@ -1,3 +1,10 @@
 .obat-padding{
     padding-right: 97px;
 }
+.obatEdit{
+    background-color: #ffff00;
+}
+.ObatHapus{
+    background-color: #ff0000;
+    color: #ffffff;
+}
